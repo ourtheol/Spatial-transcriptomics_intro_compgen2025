@@ -42,10 +42,10 @@ The following plots have been created by running the R script:
 
 1. Visualization of the Visium microscopy image and the spots.
 ![Alt text](spacial_transcriptomics/rstudio-export/0.png)
-2. The spaceranger pipeline output has been read into a Seurat object and I plot both the spot-level expression data along with the associated image of the tissue slice. 
+2. The spaceranger pipeline output has been read into a Seurat object and I plot the UMAP clustering (with default parameters) and then both the spot-level expression data (number of UMIs) along with the associated image of the tissue slice. 
 ![Alt text](spacial_transcriptomics/rstudio-export/1.png)
 ![Alt text](spacial_transcriptomics/rstudio-export/2.png)
-3. Molecular data on top of tissue histology.
+3. Molecular data on top of tissue histology. Expression of selected genes.
 ![Alt text](spacial_transcriptomics/rstudio-export/3.png)
 4. Clustering of the seurat object in UMAP plot (after selecting the number of pcs with an elbow plot).
 ![Alt text](spacial_transcriptomics/rstudio-export/4.png)
